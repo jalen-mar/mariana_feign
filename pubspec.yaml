@@ -1,0 +1,15 @@
+name: mariana_feign
+
+description: mariana:feign
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.16.1 <3.0.0"
+
+dependencies:
+  dio: 4.0.4
+  meta: 1.7.0
+  get_it: 7.2.0
