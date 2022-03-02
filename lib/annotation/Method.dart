@@ -123,6 +123,13 @@ class FormUrlEncoded extends _MimeType {
 }
 
 @immutable
+class JsonEncoded extends _MimeType {
+  @override
+  final mime = 'application/json';
+  const JsonEncoded();
+}
+
+@immutable
 class Part {
   final String? name;
   final String? contentType;
