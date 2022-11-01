@@ -86,6 +86,11 @@ class Callback {
 }
 
 @immutable
+class Client {
+  const Client();
+}
+
+@immutable
 class Field {
   final String? value;
   const Field([this.value]);
