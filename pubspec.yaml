@@ -11,5 +11,5 @@ environment:
 
 dependencies:
   dio: 4.0.4
-  meta: 1.7.0
+  meta: 1.8.0
   get_it: 7.2.0
